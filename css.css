@@ -1,0 +1,227 @@
+body {
+  background-color: #ccc;
+  font-family: Garamond;
+}
+h3 {}
+
+.Opportunitiesheader{
+  border: 50%;
+  padding-left: 40%;
+  padding-top: 20px;
+}
+.contact {
+  width: 304px;
+  margin-right: 0px;
+  display: inline;
+}
+.social {
+  display: inline;
+  float: right;
+  width: 100px;
+}
+.main {
+  margin-top: 30px;
+  display: inline;
+}
+.second {
+  padding-top: 20px;
+  padding-left: 1.5%;
+}
+.third {
+  padding-top:20px;
+  padding-left: 0%
+}
+.gardernheader {
+  border: 50%;
+  padding-left: 30%;
+  padding-top: 20px;
+}
+.images {
+  display: inline;
+  padding-left: 1.5%
+}
+.formheader {
+  border: 50%;
+  padding-left: 45%;
+  padding-top: 20px;
+}
+#forms{
+  font-size: 1.5em
+}
+.newsheader {
+  border: 50%;
+  padding-left: 45%;
+  padding-top: 20px;
+}
+.contactheader {
+  border: 50%;
+  padding-left: 45%;
+  padding-top: 20px;
+}
+.aboutheader {
+  border: 50%;
+  padding-left: 45%;
+  padding-top: 20px;
+}
+.news {
+  border: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: sans-serif;
+}
+.h2 {
+  border: 50%;
+  padding-right: 25%
+}
+h1 {
+  font-size: 3em;
+  display: flex;
+  font-family: Garamond;
+  color: #004730;
+  text-align:center;
+}
+.header {
+  height: 200px;
+  padding-left: 25%;
+  padding-top:20px;
+}
+
+h2 {
+  font-family: sans-serif;
+  display: flex;
+  border: 50%;
+  padding-left: 38%;
+  font-size: 2em;
+  color: #004730;
+  text-align: center;
+}
+#featured {
+  padding-left: 20%;
+  font-size: 2em;
+  font-family: Garamond;
+}
+p.big {
+    line-height: 200%;
+    text-decoration: none;
+}
+.big a {
+  text-decoration: none;
+  color: #008000;
+}
+
+div.text li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004730;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+
+}
+.h2 a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+h3 {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: Garamond;
+  font-size: 2em;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #75787B;}
+
+
+ul.topnav li a.active {
+  background-color: #75787B;
+  color: white;
+}
+
+/* Hide the list item that contains the link that should 
+open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+ul.row {
+  display: inline-block;
+}
+.container1 {
+  position: relative;
+  width: 304px;
+  height: 228px;
+  display: inline-block;
+}
+.image {
+  display: inline;
+  width: 304px;
+  height: 0;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #004730;
+  overflow: hidden;
+  width: 304px;
+  height:0;
+  opacity: 0.9;
+  transition: .5s ease;
+}
+.container1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  text-align: center;
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+}
